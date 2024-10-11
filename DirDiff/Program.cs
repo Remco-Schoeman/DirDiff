@@ -35,7 +35,7 @@ internal class Program
 
     static async Task Main(string[] args)
     {
-        var root = new RootCommand("DirDiff - Finds discrepancies in file trees by comparing SHA1 hashes of file contents");
+        var root = new RootCommand("DirDiff - Finds discrepancies in file trees by comparing SHA256 hashes of file contents");
         var left = new Option<DirectoryInfo>(new[] { "-l", "--left" }, "The left directory to compare") { IsRequired = true };
         var right = new Option<DirectoryInfo>(new[] { "-r", "--right" }, "The right directory to compare") { IsRequired = true };
         var mode = new Option<State>(new[] { "-m", "--mode" }, () => State.Different, "Print only the selected results") { AllowMultipleArgumentsPerToken = true };
