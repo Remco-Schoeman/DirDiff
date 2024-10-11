@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DirDiff": {
+      "commandName": "Project",
+      "commandLineArgs": "-r C:\\dev\\logiqs\\DatAControl\\src\\Customers\\WPS\\OrderControl\\LogiqsOrderControl.Main\\bin\\Release\\net48\\\r\n-l C:\\dev\\logiqs\\DatAControl\\src\\Client\\StandalonePluginHost\\bin\\Release\\net48\\\r\n-m HashMismatch"
+    }
+  }
+}
